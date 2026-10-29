@@ -19,19 +19,13 @@ The lab provides an isolated and controlled environment for cybersecurity learni
 
 It can be used for activities such as:
 
--Network reconnaissance
-
--Port scanning
-
--Vulnerability assessment
-
--Packet analysis 
-
--Web security testing 
-
--Exploitation practice
-
--Security-tool experimentation
+- Network reconnaissance
+- Port scanning
+- Vulnerability assessment
+- Packet analysis 
+- Web security testing 
+- Exploitation practice
+- Security-tool experimentation
 # 🏗️ Lab Architecture
 <img width="1346" height="616" alt="1-screenshot-Lab -Architecture (1)" src="https://github.com/user-attachments/assets/c5c4584e-e488-4204-af42-158207b85c34" />
 
