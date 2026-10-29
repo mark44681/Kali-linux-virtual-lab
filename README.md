@@ -32,6 +32,9 @@ It can be used for activities such as:
 -Exploitation practice
 
 -Security-tool experimentation
+# 🏗️ Lab Architecture
+<img width="1346" height="616" alt="1-screenshot-Lab -Architecture (1)" src="https://github.com/user-attachments/assets/c5c4584e-e488-4204-af42-158207b85c34" />
+
 
 # ⚙️Lab Configuration
 |🧩Component |⚙️Configuration |
@@ -51,7 +54,8 @@ It can be used for activities such as:
 # Step1. Install 7zip
 7-Zip was installed to extract the Kali Linux virtual-machine package, which may be distributed as a .7z archive. used to extract the files from both the virtualBox and kali installed
 
-<img width="75" height="87" alt="{C929BA1D-0EBF-49C3-8857-DB7650F425F0}" src="https://github.com/user-attachments/assets/d9d2d73d-73cc-489a-b0d1-e1851b09393e" />
+<img width="75" height="87" alt="2-screenshot-7zip-app" src="https://github.com/user-attachments/assets/e62b2da1-89c4-4dce-87d9-d872a4db18b0" />
+
 
 Tool: 7-Zip
 # Step 2. Install VirtualBox
@@ -60,8 +64,9 @@ VirtualBox was installed as the hypervisor.
 A dedicated NAT Network was created in VirtualBox.
 
 Configuration: Network Name: NatNetwork IPv4 Prefix: 10.0.0.0/24 DHCP: Enabled IPv6: Disabled
+<img width="1366" height="718" alt="3-screenshot-virtualBox-network-settings" src="https://github.com/user-attachments/assets/6b7a6bd3-174e-4140-a460-2c14830ed55c" />
 
-<img width="1366" height="718" alt="{A9DA1587-808F-4270-A113-B08341FD9CBF}" src="https://github.com/user-attachments/assets/098d5fa7-bc1d-414a-af9c-a8f9013d14af" />
+
 
 A NAT Network was selected because multiple virtual machines connected to the same NAT Network can communicate with one another while also having outbound network connectivity.
 
@@ -80,7 +85,8 @@ The VM was allocated:
 ```
 RAM: 2048 MB
 ```
-<img width="1366" height="643" alt="Screenshot_2026-10-27_10_14_11" src="https://github.com/user-attachments/assets/1e309383-a849-4416-a41d-0e29a023b1f8" />
+<img width="1366" height="643" alt="4-screenshot-Kali-Linux" src="https://github.com/user-attachments/assets/2c54b2b4-f0d0-46a5-b72d-d4c2db3b8171" />
+
 A shared folder was also configured for transferring required files between the host operating system and the Kali VM.
 # Step 5. Configure the Kali Linux Network
 The Kali Linux network configuration was checked and configured with a consistent IPv4 address.
@@ -93,12 +99,15 @@ Gateway: 10.0.0.1
 DNS: 8.8.8.8
 ```
 A consistent IP address makes it easier to document the lab and reference the Kali machine in future exercises.
-<img width="1366" height="643" alt="Screenshot_2026-10-27_11_02_08" src="https://github.com/user-attachments/assets/001237bc-d33a-4bd5-9c6e-12023fc7688c" />
+<img width="1366" height="643" alt="5-Screenshot-Kali-network-settings" src="https://github.com/user-attachments/assets/d0fe872d-c7ac-495f-b620-830bfd26b198" />
+
 # step 6. checking the network connectivity
 Checked the network connection if it works perfectly well
 
 I did it by pinging google.com and also searching network walks on firefox
-<img width="1366" height="643" alt="Screenshot_2026-10-27_12_04_27" src="https://github.com/user-attachments/assets/7f7fb02b-21db-4cb9-b812-2861a4b59fad" /> <img width="1366" height="643" alt="Screenshot_2026-10-27_12_03_37" src="https://github.com/user-attachments/assets/b0c147f4-a267-4a65-96e9-de1059bdd405" />
+<img width="1366" height="643" alt="6-Screenshot_Google-Ping" src="https://github.com/user-attachments/assets/9be84edd-790f-430c-b24d-3d4ed79efb25" /> <img width="1366" height="643" alt="7-Screenshot-firefox-search" src="https://github.com/user-attachments/assets/d6771383-0d65-4142-a8be-8e3a502667b4" />
+
+
 
 # Step 7. Create a Clean VM Snapshot
 After completing the initial configuration, a VirtualBox snapshot was created.
