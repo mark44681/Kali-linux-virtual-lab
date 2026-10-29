@@ -27,7 +27,8 @@ It can be used for activities such as:
 - Exploitation practice
 - Security-tool experimentation
 # 🏗️ Lab Architecture
-<img width="1346" height="616" alt="1-screenshot-Lab -Architecture (1)" src="https://github.com/user-attachments/assets/c5c4584e-e488-4204-af42-158207b85c34" />
+<img width="1346" height="616" alt="1-screenshot-Lab -Architecture (1)" src="https://github.com/user-attachments/assets/56a2238e-264a-4cdd-990c-674639168a1e" />
+
 
 
 # ⚙️Lab Configuration
